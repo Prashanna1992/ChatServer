@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "socket.io": "^2.3.0"
+  },
+  "name": "connectappnodejs",
+  "version": "1.0.0",
+  "description": "ConnectApp backend server",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev":"nodemon index"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "author": "Prashanna",
+  "license": "ISC"
+}
