@@ -10,6 +10,8 @@ var io = require("socket.io")(server);
 // middleware
 app.use(express.json());
 var clients = {};
+const routes = require("./routes");
+app.use("/routes",routes);
 
 io.on("connection",(socket)=>{
 
